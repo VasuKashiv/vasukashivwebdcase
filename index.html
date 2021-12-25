@@ -1,0 +1,210 @@
+<!-- Inline and Embedded CSS Implemented here -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <!-- Using some existing Stylesheets -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .sidebar {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 2;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+
+    }
+
+    .sidebar a {
+      padding: 6px 8px 10px 20px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+    }
+
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    .main {
+      margin-left: 160px;
+      padding: 0px 10px;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 120px
+    }
+
+    .boyimg {
+      text-align-last: center;
+      font-size: 15;
+      opacity: 0.5;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .line-height {
+      line-height: 2.4em;
+      float: left;
+    }
+  </style>
+
+</head>
+
+<body class="w3-black">
+  <div class="sidebar">
+    <img src="NewImage.jpg" alt="avatar_smoke" class="w3-image" width="150" height="200" style="opacity:0.85"">
+    <a href=" #home"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
+    <a href="#photos"><i class="fa fa-fw fa-eye"></i> Gallery</a>
+    <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  </div>
+
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vasu Kashiv.</h1>
+      <p>Student at IIT Roorkee.</p>
+      <img src="5737202eeea54c982f2afb84_Mountain.jpg" alt="boy" class="w3-image" width="992" height="1108">
+      <p class="boyimg">Source:Google</p>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">My Name</h2>
+      <hr style="width:170px" class="w3-opacity">
+      <p>Welcome!</p>
+      <p>Every person has their own unique story. Here is a glimpse into mine.</p>
+      <p>My name is Vasu Kashiv, a 19 year old youngster, and I am pursuing B.Tech. in Electrical Engineering at Indian
+        Institute of Technology (IIT) Roorkee. While here, I am completing my Bachelor’s Degree in Education with a
+        concentration in learning and exploring Software Developer skills.</p>
+      <p>So far in just two short months, I have begun to incorporate my interests toward learning Competitive
+        Programming and Web Development. I have always been a keen and sharp guy. Recently, C++ language and Web
+        Designing have caught my interests and so I am into learning them whenever I find myself free from Academics.
+      </p>
+      <p>Feel free to explore the rest of my page as I hope you enjoy reading it as much as I have enjoyed creating it!
+      </p>
+
+
+      <h3 class="w3-padding-16 w3-text-light-grey">My Hobbies</h3>
+      <hr style="width:170px" class="w3-opacity">
+      <ul style="list-style-type:square;">
+        <li>Coding</li>
+        <li>Web Designing</li>
+        <li>Video and Photo Editing</li>
+        <li>Reading books</li>
+        <li>Gaming</li>
+        <li>Playing badminton</li>
+        <li>Gymming</li>
+      </ul>
+      <p>My interest levels</p>
+      <p class="w3-wide">Coding</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+      <p class="w3-wide">Web Design</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      </div>
+      <p class="w3-wide">Video Editing</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+      </div>
+      <p class="w3-wide">Gaming</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+      </div><br>
+
+      <!-- Academic-Background -->
+
+      <h3 class="w3-padding-24 w3-text-light-grey">My Education Qualification</h3>
+      <hr style="width:340px" class="w3-opacity">
+      <ul style="list-style-type:disc" class="line-height">
+        <li>Cleared High School with 96% in the academic year 2017-18</li>
+        <li>Cleared Intermediate with 98% in the academic year 2019-20</li>
+        <li>Qualified and Cleared JEE Main and Jee Advanced 2021</li>
+
+        <!-- End About Section -->
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+      <h2 class="w3-text-light-grey">Gallery</h2>
+      <hr style="width:110px" class="w3-opacity">
+
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="62ed92c9-22b6-43a6-a755-0f296d0f64ce-8b3c8aa8f0af.small.jpeg" style="width:100%">
+          <img src="photo-1593720213428-28a5b9e94613.jpg" style="width:100%">
+          <img src="photo-1574717025058-2f8737d2e2b7.jpg" style="width:100%">
+        </div>
+
+        <div class="w3-half">
+          <img src="31-gaming-companies-to-know-1_0.jpg" style="width:100%">
+          <img src="1561200330-WORKOUT_TS.jpg" style="width:100%">
+          <img src="1209407.webp" style="width:100%">
+          <img src="1657858.webp" style="width:100%">
+
+        </div>
+        <!-- End photo grid -->
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Meerut,UP</p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 7017890134</p>
+        <p><i class="fa fa-whatsapp fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8171604559</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Email:
+          <a href="mailto:v_kashiv@ee.iitr.ac.in" style="text-decoration: none;">v_kashiv@ee.iitr.ac.in</a>
+        </p>
+      </div>
+      <!-- End Contact Section -->
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.snapchat.com" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <!-- End footer -->
+      </footer>
+      <hr style="width:full" class="w3-opacity">
+      <!-- END PAGE CONTENT -->
+    </div>
+</body>
+
+</html>
